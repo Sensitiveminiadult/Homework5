@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" thread-count="0" name="tests">
+    <test parallel="tests" name="Examples">
+        <classes>
+            <class name="Examples.Tamara"/>
+        </classes>
+    </test>
+</suite>
